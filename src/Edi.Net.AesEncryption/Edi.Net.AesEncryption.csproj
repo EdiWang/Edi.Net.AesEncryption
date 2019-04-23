@@ -16,6 +16,10 @@
     <PackageTags>Encryption, AES</PackageTags>
     <Description>AES Encryption and Decryption</Description>
     <RepositoryUrl>https://github.com/EdiWang/Edi.Net.AesEncryption</RepositoryUrl>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

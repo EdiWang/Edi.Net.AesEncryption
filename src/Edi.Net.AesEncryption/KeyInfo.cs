@@ -15,8 +15,11 @@ namespace Edi.Net.AesEncryption
         {
             using (var myAes = Aes.Create())
             {
-                Key = myAes.Key;
-                Iv = myAes.IV;
+                if (myAes != null)
+                {
+                    Key = myAes.Key;
+                    Iv = myAes.IV;
+                }
             }
         }
 

@@ -5,10 +5,10 @@ For the reason why not use .NET Core built in DataProtection API, refer to my bl
 
 Package Manager
 ```
-Install-Package Edi.Net.AesEncryption -Version 1.0.0
+Install-Package Edi.Net.AesEncryption
 ```
 
 .NET CLI
 ```
-dotnet add package Edi.Net.AesEncryption --version 1.0.0
+dotnet add package Edi.Net.AesEncryption
 ```

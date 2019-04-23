@@ -4,25 +4,25 @@ using System.Security.Cryptography;
 
 namespace Edi.Net.AesEncryption
 {
-    public class AesEncryptionService
+    public class AesEncryptionService : IAesEncryptionService
     {
-        private readonly KeyInfo _keyInfo;
+        public KeyInfo KeyInfo { get; set; }
 
-        public AesEncryptionService(KeyInfo keyInfo = null)
+        public AesEncryptionService(KeyInfo keyInfo)
         {
-            _keyInfo = keyInfo;
+            KeyInfo = keyInfo;
         }
 
         public string Encrypt(string input)
         {
-            var enc = EncryptStringToBytes_Aes(input, _keyInfo.Key, _keyInfo.Iv);
+            var enc = EncryptStringToBytes_Aes(input, KeyInfo.Key, KeyInfo.Iv);
             return Convert.ToBase64String(enc);
         }
 
         public string Decrypt(string cipherText)
         {
             var cipherBytes = Convert.FromBase64String(cipherText);
-            return DecryptStringFromBytes_Aes(cipherBytes, _keyInfo.Key, _keyInfo.Iv);
+            return DecryptStringFromBytes_Aes(cipherBytes, KeyInfo.Key, KeyInfo.Iv);
         }
 
         public static byte[] EncryptStringToBytes_Aes(string plainText, byte[] key, byte[] iv)
