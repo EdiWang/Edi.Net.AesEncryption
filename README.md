@@ -2,6 +2,11 @@
 
 [![Build status](https://dev.azure.com/ediwang/EdiWang-GitHub-Builds/_apis/build/status/Edi.Net.AesEncryption-CI)](https://dev.azure.com/ediwang/EdiWang-GitHub-Builds/_build/latest?definitionId=55)
 
+[![NuGet][main-nuget-badge]][main-nuget]
+
+[main-nuget]: https://www.nuget.org/packages/Edi.Net.AesEncryption/
+[main-nuget-badge]: https://img.shields.io/nuget/v/Edi.Net.AesEncryption.svg?style=flat-square&label=nuget
+
 AES Encryption and Decryption used in my blog system.
 
 For the reason why not use .NET Core built in DataProtection API, refer to my blog post https://edi.wang/post/2019/1/15/caveats-in-aspnet-core-data-protection 
