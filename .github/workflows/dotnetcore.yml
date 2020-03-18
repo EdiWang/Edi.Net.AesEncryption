@@ -19,10 +19,10 @@ jobs:
         dotnet-version: 3.1.200
     - name: Build with dotnet
       run: dotnet build --configuration Release
-      working-directory: ./src
+      working-directory: ./src/Edi.Net.AesEncryption
     - name: Run unit tests
       run: dotnet test --configuration Release
-      working-directory: ./src
+      working-directory: ./src/Edi.Net.AesEncryption
     - name: Generate nuget package
       run: dotnet pack --configuration Release -o nupkg
-      working-directory: ./src
+      working-directory: ./src/Edi.Net.AesEncryption
