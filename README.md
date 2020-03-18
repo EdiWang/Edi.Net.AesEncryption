@@ -1,6 +1,6 @@
 # Edi.Net.AesEncryption
 
-[![Build status](https://dev.azure.com/ediwang/EdiWang-GitHub-Builds/_apis/build/status/Edi.Net.AesEncryption-CI)](https://dev.azure.com/ediwang/EdiWang-GitHub-Builds/_build/latest?definitionId=55)
+![.NET Core](https://github.com/EdiWang/Edi.Net.AesEncryption/workflows/.NET%20Core/badge.svg)
 
 [![NuGet][main-nuget-badge]][main-nuget]
 
