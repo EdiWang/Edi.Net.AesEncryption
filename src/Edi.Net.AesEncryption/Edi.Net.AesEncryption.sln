@@ -5,12 +5,13 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edi.Net.AesEncryption", "Edi.Net.AesEncryption.csproj", "{E836E6D6-F28A-4519-AE26-3A0D20EA52BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edi.Net.AesEncryption.Test", "..\Edi.Net.AesEncryption.Test\Edi.Net.AesEncryption.Test.csproj", "{37DB5BED-96F4-4918-A99F-71CBB09C9BFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edi.Net.AesEncryption.Test", "..\Edi.Net.AesEncryption.Test\Edi.Net.AesEncryption.Test.csproj", "{37DB5BED-96F4-4918-A99F-71CBB09C9BFD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution-Items", "Solution-Items", "{4CA361D2-2D82-4852-9F16-BF3C9B2D1F03}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9B157EF-DF76-4048-9951-73CB3BB89F1E}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\.gitattributes = ..\..\.gitattributes
 		..\..\.gitignore = ..\..\.gitignore
+		..\..\.github\workflows\dotnetcore.yml = ..\..\.github\workflows\dotnetcore.yml
 		..\..\README.md = ..\..\README.md
 	EndProjectSection
 EndProject
