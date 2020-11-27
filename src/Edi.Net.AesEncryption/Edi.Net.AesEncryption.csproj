@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFrameworks>netstandard2.1;netcoreapp3.1;net5.0</TargetFrameworks>
     <Authors>Edi Wang</Authors>
     <Company>edi.wang</Company>
     <PackageProjectUrl>https://edi.wang</PackageProjectUrl>
@@ -9,10 +9,10 @@
     <PackageTags>Encryption, AES</PackageTags>
     <Description>AES Encryption and Decryption</Description>
     <RepositoryUrl>https://github.com/EdiWang/Edi.Net.AesEncryption</RepositoryUrl>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <FileVersion>1.2.0.0</FileVersion>
+    <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <FileVersion>1.2.1.0</FileVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
   </PropertyGroup>
 
 </Project>
